@@ -1,0 +1,25 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8">
+<title>maza</title>	
+<script src="build/divLib.js"></script>
+<script src="src/lib/phaser.js"></script>
+<script src="build/maze.js"></script>
+
+<script>
+	var trace = window.console.log.bind(window.console);	
+	var dcmParam;
+	function init () {
+		//window.onresize = sizeWindow;
+		dcmParam=new DCM();		
+		/*scane= new DCont(document.body);
+		content= new DCont(scane);
+		content.position.x=220;
+		pObject=new DParamObject(scane,2,2,function(){});
+		pObject.addObject(dinamik);*/
+
+		var game=new MGame();
+
+		
+	}
+	
+</script></head><body onload="init()"></body></html>
